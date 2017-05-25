@@ -1,0 +1,234 @@
+@import url(../css/reset.css);
+
+html,body { background:none; }
+.FontRed  {color:#F4A7B9;}
+
+.FontBlue { color:#2A91B5;}
+.wrapper	{ background:none; }
+.container	{ background:none; }
+
+/* =================內容區塊================= */	
+
+.title{ height:50px; text-align:center; line-height:50px; }
+
+.content--size { padding-bottom:20px;}
+.content--color{ color: #fff;}
+
+.picStyle {
+    border: 3px solid #a9a9a9;
+    border-radius: 10px;
+}
+
+/*領獎步驟*/
+.textStep { width:100%; height:120px; display:block; position:relative; margin:0 auto; padding:0px 20px; }
+.textStep li { float:left; 
+	list-style:none; 
+	color:#3f3f3f; 
+	text-align:center; 
+	margin:0px 12px;
+	border:3px solid #ffffff; 
+	border-radius:20px; 
+	box-shadow:0px 0px 5px #d2d2d2;
+	background: #b8b8b8;
+	background-image: -moz-linear-gradient(top, #ffffff 0%, #b8b8b8 100%);
+	background-image: -webkit-linear-gradient(top, #ffffff 0%, #b8b8b8 100%);
+	background-image: linear-gradient(to bottom,  #ffffff 0%, #b8b8b8 100%);
+}
+.textStep li.boxA { width:46%;}
+.textStep li.boxB { width:43%;}
+.textStep li.boxA img, .textStep li.boxB img { float:left; border-radius:12px; }
+.textStep li.boxA img { margin:25px 5px 25px 10px; }
+.textStep li.boxB img { margin:30px 10px; }
+.textStep p { line-height:30px; padding:32px 0px; }
+.textStep li.boxA:after{ content:'►'; color:#a9a9a9; display:block; position:absolute; font-size:25px; top:50px; left:48%; }
+
+
+.textEggset {width:90%; height:130px; display:block; position:relative; margin:10px auto; }
+	.textEggset li { float:left; list-style:none; color:#3f3f3f; text-align:center; margin:0px 10px;
+			border:3px solid #ffffff; border-radius:20px; box-shadow:0px 0px 5px #d2d2d2;
+			background: #b8b8b8;
+			background-image: -moz-linear-gradient(top, #ffffff 0%, #b8b8b8 100%);
+			background-image: -webkit-linear-gradient(top, #ffffff 0%, #b8b8b8 100%);
+			background-image: linear-gradient(to bottom,  #ffffff 0%, #b8b8b8 100%); }
+		.textEggset li.boxA { width:27%; padding:42px 0px; }
+		.textEggset li.boxB { width:36%; padding:18px 0px; }
+		.textEggset li.boxC { width:32%; padding:6px 0px; }
+		.textEggset li.boxA:after, .textEgg_set li.boxB:after{ content:'►'; color:#a9a9a9; display:block; position:absolute; font-size:25px; top:45px;}
+		.textEggset li.boxA:after{ left:28%;}
+		.textEggset li.boxB:after{ left:58%; }
+		.textEggset .tit{ font-weight: bold; font-size:18px; }
+
+
+.textChange {width:95%; height:470px; display:block; position:relative; margin:12px auto; padding:0px 10px; }
+	.textChange li { float:left; list-style:none; margin:0px 12px; }
+	.textChange li.giftImg { }
+	.textChange li.giftTit { width:32%; color:#3f3f3f; line-height:30px; text-align:center; padding:20px 10px; margin-top:320px; margin-left:20px;
+			border:3px solid #ffffff; border-radius:20px; box-shadow:0px 0px 5px #d2d2d2;
+			background: #b8b8b8;
+			background-image: -moz-linear-gradient(top, #ffffff 0%, #b8b8b8 100%);
+			background-image: -webkit-linear-gradient(top, #ffffff 0%, #b8b8b8 100%);
+			background-image: linear-gradient(to bottom,  #ffffff 0%, #b8b8b8 100%); }
+		.textChange li.giftImg:after{ content:'►'; color:#a9a9a9; display:block; position:absolute; font-size:32px; top:360px; left:405px; }
+
+/*積分兌換流程-收到禮物*/
+.textGiftget {width:90%; height:80px; display:block; position:relative; margin:12px auto; }
+	.textGiftget li { float:left; list-style:none; margin:0px 9px; }
+	.textGiftget li.giftImg { }
+	.textGiftget li.giftTit { width:44%; color:#3f3f3f; line-height:30px; text-align:center; padding:10px;
+			border:3px solid #ffffff; border-radius:20px; box-shadow:0px 0px 5px #d2d2d2;
+			background: #b8b8b8;
+			background-image: -moz-linear-gradient(top, #ffffff 0%, #b8b8b8 100%);
+			background-image: -webkit-linear-gradient(top, #ffffff 0%, #b8b8b8 100%);
+			background-image: linear-gradient(to bottom,  #ffffff 0%, #b8b8b8 100%); }
+		.textGiftget li.giftImg:after{ content:'►'; color:#a9a9a9; display:block; position:absolute; font-size:25px; top:28px; left:51%; }
+
+
+/*icon*/
+.ico {
+	display: inline-block;
+	padding: 2px 6px;
+	margin: 0 5px;
+	font-size: 80%;
+	color: #fff;
+	text-shadow: 1px 1px #555;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 16px;
+}
+
+.ico-new {
+	background: #15b53a;
+}
+.ico-hot {
+	background: #d82237;
+}
+.ico-good {
+	background: #f4880a;
+}
+
+.img-responsive {
+	max-width: 100%;
+}
+
+
+/*提示文字區塊*/
+.tips-area {
+	padding: 16px;
+	background: #f6cbd3;
+	border-radius: 10px;
+	margin: 20px 0;
+	color: #000;
+	font-size: 15px;
+}
+
+/*禮包切換圖片*/
+.slider-wra {
+		width: 730px;
+		padding: 14px;
+		margin: 20px auto;
+		text-align: center;
+		background: #c8a0ef;
+		border-radius: 10px;
+}
+.slider {
+		width: 730px;
+		height: 390px;
+		position: relative;
+		overflow: hidden;
+		border: 2px solid #fff;
+		border-radius: 5px;i
+
+	}
+.slider ul.slider__list {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		position: absolute;
+		width: 9999px;
+		height: 100%;
+	}
+.slider ul.slider__list li {
+		float: left;
+		width: 730px;
+		height: 100%;
+	}
+.slider .slider__list img{
+		width: 100%;
+		height: 100%;
+		border: 0;
+	}
+.slider__btn li {
+	display: inline-block;
+	list-style: none;
+}
+.slider__btn li a {
+	padding: 8px;
+	border-radius: 6px;
+	background: #460084;
+	color: #fff;
+}
+.slider__btn li a:hover {
+	background: #ffcbdf;
+	color: #000;
+	text-decoration: none;
+}
+
+
+/*步驟流程*/
+.step {
+  margin: 20px 0;
+}
+.step ul {
+  padding: 0;
+}
+.step li {
+  display: inline-block;
+  padding: 12px;
+  margin-right: 20px;
+  color: #12376e;
+  border-radius: 10px;
+  vertical-align: middle;
+  list-style: none;
+  position: relative;
+  border: 3px #ccc solid; 
+  background: rgb(242,242,242); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 0%, rgba(229,229,229,1) 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(242,242,242,1) 0%,rgba(229,229,229,1) 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(242,242,242,1) 0%,rgba(242,242,242,1) 0%,rgba(229,229,229,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+.step li>img {
+	border-radius: 5px;
+}
+.step li:before {
+  content:'►';
+  color: #666;
+  font-size: 1.5em;
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  transform:translateY(-50%);
+}
+
+.step li:last-child:before {
+  content:'';
+}
+
+/* =================滑動選單================= */
+#abgne_float_ad {
+	display:none;
+	position:absolute;
+	z-index:9999;
+}
+#abgne_float_ad .abgne_close_ad {
+	display:block;
+	text-align:right;
+	cursor:pointer;
+	font-size:12px;
+}
+#abgne_float_ad img {
+	border:none;
+	display:block;
+}

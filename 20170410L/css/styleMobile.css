@@ -1,0 +1,47 @@
+/* 引用css共用樣式 */
+html,body	{background-size:1200px;}
+.wrapper	{background-size:1200px; overflow:hidden;}
+.header		{width:87%; height:0; background:none; padding-bottom:54%;} 
+.slogan{
+    background-size: cover;
+    width: 61%;
+    height: 59%;
+}
+
+
+/* 頁面選單 ------------------------
+
+/* 頁面選單 ------------------------ */
+.nav{width:73%;}
+	.nav > li {width:32%; height: 78%}
+	.nav a {width:100%; background-size:100% 214%;}
+
+/* 內容區塊 ------------------------ */
+
+.content { }
+	.content--size {width:90%;}
+	.content > h3{font-size:100%;width:100px;}
+	.content > h3:after{ display:none}
+	.content > p{margin-left:15px;}
+
+/*各項內容表格*/
+.tableA{  width: 100%; }
+.tableA td img{ display:block; width:80%; max-width:79px; margin:0 auto;}
+.tableA td img.pic{ width:auto;}
+.tableA td img.ImgStyleD { width:30%;}
+#PageData div.DataBox { padding:5px;}
+#PageData ul.styleA { margin-left:5px;}
+
+
+/*RWD區塊顯示控制*/
+.RwdMobileData {}
+.RwdPcData {}
+
+/* =================頁首表現================= */
+@media only screen and (max-width: 736px) {
+.wrapper	{background-size:217%;}
+.header		{padding-bottom:62%;}
+
+@media only screen and (max-width: 414px) {
+.header		{padding-bottom:60%;} 
+.nav > li   {height: 50%}

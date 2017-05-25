@@ -1,0 +1,165 @@
+/* CSS Document */
+/* =================全區設訂================= */
+html,body { background:#f1f1ef;-webkit-text-size-adjust:none;/*iPhone旋轉後 文字不要放大*/}
+*{ margin:0; padding:0; box-sizing:border-box; font:15px/27px Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "新細明體","PMingLiU",  "標楷體", DFKai-SB, sans-serif; text-decoration: none; }
+h1{ display: none; }
+
+/* =================通用類別================= */
+.FloatLeft		{ float:left;}
+.FloatRight		{ float:right;}
+.ClearBoth		{ clear:both}
+.TextalignLeft  { text-align:left;}
+.TextalignCenter{ text-align:center;}
+.TextalignRight { text-align:right;}
+.TextTitle		{ color:#3366ff;}
+.FontWeight		{ font-weight:bold;}
+
+.show		{display: block !important;}
+.hidden		{display: none !important;}
+.invisible	{visibility: hidden;}
+
+/* =================文字類別================= */	
+.FontBlack	{color:#000}
+.FontYellow	{color:#FF9}
+.FontBlue	{color:#0008ff}
+.FontWhite	{color:#fff;}
+.FontRed	{color:#900;}
+.FontPurple	{color:#309;}
+.FontPoint	{color:#F00;}
+.FontPointB	{color:#F3C; font-weight:bold;}
+
+
+/* =================頁首表現================= */
+.wrapper		{width:100%;background:url(../images/indexBg.jpg) center top no-repeat;}
+.container		{width:inherit;}
+.header			{position:relative; height: 635px; width:1024px; margin:0 auto;} 
+.logo{
+	display: block;
+	position: absolute;
+	width:239px;
+	height: 129px;
+	left:673px;
+	top:164px;
+}
+.logo a{
+	width:100%;
+	height:100%;
+	display: block;
+}
+.slogan{
+	display: block;
+	background:url(../images/slogan.png) center top no-repeat;
+	position: absolute;
+	width:564px;
+	height: 357px;
+	left:33%;
+	top:37%;
+}
+
+/* =================頁面選單================= */	
+.nav{width:570px;
+	height:149px; 
+	display:block;
+	position:absolute; 
+	top:95%;
+	left:34%;}
+	.nav > li{text-indent:-9999px; float:left; list-style:none; display:block; width:187px; height:140px; margin:0px; }
+	.nav a{ display:block;width:100%; height:100%; transition:all .5s; background-position: bottom center; background-repeat:no-repeat;}
+	a.btn01 { background-image:url(../images/Btn01.png);}
+	a.btn02 { background-image:url(../images/Btn02.png);}
+	a.btn03 { background-image:url(../images/Btn03.png);}
+	a.btn04 { background-image:url(../images/Btn04.png);}
+	a.btn05 { background-image:url(../images/Btn05.png);}
+	a.btn06 { background-image:url(../images/Btn06.png);}
+	.nav a:hover,a.hover{background-position: top center;}
+
+
+/* =================內容區塊================= */	
+.title { width:90%; margin: 0px auto 5px auto; }
+.content { text-align:left; margin:123px auto 0 auto;  clear:both; line-height: 5px; margin-bottom:30px;}
+	.content--size {width:800px; padding:35px; border:3px solid; border-color:#4a9acd; border-radius:10px 10px;}
+	.content--color{background:rgba(255,255,255,.4); color: #000;}
+	.content h2 { display:block; font-weight:bold; color: #fff; margin:0 0 10px 0; padding:10px; text-align:center; font-size:2em;
+	background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(36,129,215,1) 30%, rgba(0,108,208,1) 35%, rgba(0,108,208,1) 65%, rgba(44,133,216,1) 71%, rgba(248,251,254,0) 99%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(36,129,215,1) 30%,rgba(0,108,208,1) 35%,rgba(0,108,208,1) 65%,rgba(44,133,216,1) 71%,rgba(248,251,254,0) 99%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(36,129,215,1) 30%,rgba(0,108,208,1) 35%,rgba(0,108,208,1) 65%,rgba(44,133,216,1) 71%,rgba(248,251,254,0) 99%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 ); }
+	.content h3 { 
+		background: -moz-linear-gradient(left, rgba(0,108,208,1) 0%, rgba(55,136,206,1) 48%, rgba(251,253,254,0) 99%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, rgba(0,108,208,1) 0%,rgba(55,136,206,1) 48%,rgba(251,253,254,0) 99%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, rgba(0,108,208,1) 0%,rgba(55,136,206,1) 48%,rgba(251,253,254,0) 99%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006cd0', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+		color: #fff;
+		display:inline-block;
+		width:20%;
+		margin: 10px 10px 10px 0;
+		padding: 5px 5px 5px 10px;
+		font-weight:bold;
+		border-bottom-left-radius:5px;
+		border-top-left-radius:5px;}
+	.content a{ text-decoration:none; color: #FC6;}
+	.content a:hover{ color: #FC3}
+	.content p{
+			   line-height:35px;}
+	
+	.content h5 { display:block; text-align:center; font-weight:bold; }
+	.content h5 span {padding:2px 8px; color:#FFF; display:inline-block; margin:5px auto;	border-radius:5px; font-weight:bold;
+		background: #980000; background: linear-gradient(to bottom, #e60000 0%, #880000 100%);}
+	h5{
+		color: #FFFD00;
+		padding-left: 20px;
+	}
+	.ImgStyleA{ 
+	max-width: 80%;
+    margin: 0 auto;
+    display: block;
+    border: 4px solid #69aad3;
+    border-radius: 6px;}
+	.ImgStyleB{ 
+	max-width: 95%;
+    margin: 0 auto;
+    display: block;}
+
+/* =================表格樣式================= */	
+.tableA{ margin:0 auto 15px auto; background:#69aad3; padding:3px; color:#3c2f00; border-radius:6px; table-layout:fixed; word-break:break-all;width:80%;}
+	.tableA td{ text-align:center;	background:#fff; line-height:23px;}
+	.tableA th{	background:#4b5fa2; text-align:center; line-height:28px; color:#FFF; font-weight:bold; padding:3px;}
+	.tableA td.td1{ color: #FC9; background: #C60;}
+	.tableA td.td2{ color: #FC9; background: #C66;}
+	.tableA td.td3{ color:#2E2E2E; background:#FBC62B;}
+	.tableA td.td4{ background: #FFDD00;}
+	.tableA img{ display:block; margin:0 auto; width: 150px;}
+	.tableA img.sizeA{ width:60%}
+
+
+/* =================RWD區塊顯示控制================= */
+.RwdPcData {}
+.RwdMobileData	{}
+.RwdIngameData	{ border: 10px double #3b5998; }
+
+
+/* =================標籤================= */
+.ribbon {
+ font-size: 16px !important;
+ width: 150px;/*缎帶內容寬度*/   
+ position: relative;
+ background: #5a73c4;
+ color: #fff;
+ text-align: center;
+ padding: 1em;
+ margin: 2em 0;
+}
+	/*緞帶後*/
+ .ribbon:after {
+	 content: "";
+	 position: absolute;
+	 display: block;
+	 bottom: -1em;
+	 border: 1.5em solid #4b5fa2;
+	 z-index: -1;
+	}
+	.ribbon:after {
+	 right: -2em;
+	 border-left-width: 1.5em;
+	 border-right-color: transparent;
+	}
